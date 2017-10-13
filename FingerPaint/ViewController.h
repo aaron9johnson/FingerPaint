@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Paint.h"
+
 @interface ViewController : UIViewController
-
-
+@property IBOutlet Paint *paintView;
 @end
 
